@@ -1,0 +1,386 @@
+"TimeCreated","ScriptBlock"
+"11/11/2026 3:07:29 PM","{
+        $_.IPAddress -and
+        $_.IPAddress -notin @('-', '127.0.0.1', '::1')
+    }"
+"11/11/2026 3:07:29 PM","# ==========================================
+# WINDOWS SOC AUTOMATED DETECTION SYSTEM
+# SOC WEEK 2 - DAY 6
+# ==========================================
+
+$StartTime = (Get-Date).AddHours(-24)
+
+$OutputFolder = "".\Logs""
+
+Write-Host ""======================================""
+Write-Host "" WINDOWS SOC DETECTION SYSTEM""
+Write-Host ""======================================""
+
+# ------------------------------------------
+# 1. FAILED LOGIN DETECTION - EVENT 4625
+# ------------------------------------------
+
+Write-Host ""`n[1] Checking failed login events...""
+
+$FailedEvents = @(
+    Get-WinEvent -FilterHashtable @{
+        LogName = 'Security'
+        Id = 4625
+        StartTime = $StartTime
+    } -MaxEvents 500 -ErrorAction SilentlyContinue
+)
+
+$FailedResults = foreach ($Event in $FailedEvents) {
+
+    [xml]$Xml = $Event.ToXml()
+    $Data = @{}
+
+    foreach ($Item in $Xml.Event.EventData.Data) {
+        $Data[$Item.Name] = [string]$Item.'#text'
+    }
+
+    [PSCustomObject]@{
+        TimeCreated = $Event.TimeCreated
+        Username = $Data['TargetUserName']
+        IPAddress = $Data['IpAddress']
+        LogonType = $Data['LogonType']
+    }
+}
+
+$FailedResults |
+Export-Csv ""$OutputFolder\SOC-Failed-Logins.csv"" -NoTypeInformation
+
+$BruteForceAlerts = @(
+    $FailedResults |
+    Where-Object {
+        $_.IPAddress -and
+        $_.IPAddress -notin @('-', '127.0.0.1', '::1')
+    } |
+    Group-Object IPAddress |
+    Where-Object { $_.Count -ge 5 } |
+    ForEach-Object {
+        [PSCustomObject]@{
+            RuleID = ""RULE001""
+            Alert = ""Repeated Failed Login""
+            SourceIP = $_.Name
+            Count = $_.Count
+            Severity = ""High""
+        }
+    }
+)
+
+# ------------------------------------------
+# 2. SUSPICIOUS PROCESS DETECTION - SYSMON 1
+# ------------------------------------------
+
+Write-Host ""[2] Checking process creation events...""
+
+$ProcessEvents = @(
+    Get-WinEvent -FilterHashtable @{
+        LogName = 'Microsoft-Windows-Sysmon/Operational'
+        Id = 1
+        StartTime = $StartTime
+    } -MaxEvents 500 -ErrorAction SilentlyContinue
+)
+
+$ProcessResults = foreach ($Event in $ProcessEvents) {
+
+    [xml]$Xml = $Event.ToXml()
+    $Data = @{}
+
+    foreach ($Item in $Xml.Event.EventData.Data) {
+        $Data[$Item.Name] = [string]$Item.'#text'
+    }
+
+    [PSCustomObject]@{
+        TimeCreated = $Event.TimeCreated
+        Image = $Data['Image']
+        CommandLine = $Data['CommandLine']
+        ParentImage = $Data['ParentImage']
+        User = $Data['User']
+    }
+}
+
+$ProcessResults |
+Export-Csv ""$OutputFolder\SOC-Process-Activity.csv"" -NoTypeInformation
+
+$ProcessPattern = '(?i)(-encodedcommand\b|-enc\s+[A-Za-z0-9+/=]+|-windowstyle\s+hidden|downloadstring|frombase64string)'
+
+$ProcessAlerts = @(
+    $ProcessResults |
+    Where-Object {
+        $_.CommandLine -match $ProcessPattern -and
+        $_.CommandLine -notmatch '(?i)SOC-Week02'
+    } |
+    ForEach-Object {
+        [PSCustomObject]@{
+            RuleID = ""RULE002""
+            Alert = ""Suspicious Process Activity""
+            Process = $_.Image
+            CommandLine = $_.CommandLine
+            Severity = ""High""
+        }
+    }
+)
+
+# ------------------------------------------
+# 3. POWERSHELL DETECTION - EVENT 4104
+# ------------------------------------------
+
+Write-Host ""[3] Checking PowerShell script events...""
+
+$PowerShellEvents = @(
+    Get-WinEvent -FilterHashtable @{
+        LogName = 'Microsoft-Windows-PowerShell/Operational'
+        Id = 4104
+        StartTime = $StartTime
+    } -MaxEvents 500 -ErrorAction SilentlyContinue
+)
+
+$PowerShellResults = foreach ($Event in $PowerShellEvents) {
+
+    [xml]$Xml = $Event.ToXml()
+    $Data = @{}
+
+    foreach ($Item in $Xml.Event.EventData.Data) {
+        $Data[$Item.Name] = [string]$Item.'#text'
+    }
+
+    [PSCustomObject]@{
+        TimeCreated = $Event.TimeCreated
+        ScriptBlock = $Data['ScriptBlockText']
+    }
+}
+
+$PowerShellResults |
+Export-Csv ""$OutputFolder\SOC-PowerShell-Activity.csv"" -NoTypeInformation
+
+$PowerShellPattern = '(?i)(downloadstring|frombase64string|invoke-expression\s+\$|start-bitstransfer|invoke-webrequest)'
+
+$PowerShellAlerts = @(
+    $PowerShellResults |
+    Where-Object {
+        $_.ScriptBlock -match $PowerShellPattern -and
+        $_.ScriptBlock -notmatch '(?i)SOC Week 2|Detect-PowerShellActivity|SOC-Automated-Detection|Day4-Test'
+    } |
+    ForEach-Object {
+        [PSCustomObject]@{
+            RuleID = ""RULE003""
+            Alert = ""Potentially Suspicious PowerShell Activity""
+            ScriptBlock = $_.ScriptBlock
+            Severity = ""Medium""
+        }
+    }
+)
+
+# ------------------------------------------
+# 4. COMBINE ALL ALERTS
+# ------------------------------------------
+
+Write-Host ""[4] Generating consolidated alerts...""
+
+$AllAlerts = @(
+    $BruteForceAlerts
+    $ProcessAlerts
+    $PowerShellAlerts
+)
+
+$AllAlerts |
+Export-Csv ""$OutputFolder\SOC-Final-Alerts.csv"" -NoTypeInformation
+
+# ------------------------------------------
+# 5. GENERATE SUMMARY
+# ------------------------------------------
+
+$Summary = @(
+    [PSCustomObject]@{
+        Category = ""Failed Login Events""
+        Count = $FailedResults.Count
+    }
+
+    [PSCustomObject]@{
+        Category = ""Process Events""
+        Count = $ProcessResults.Count
+    }
+
+    [PSCustomObject]@{
+        Category = ""PowerShell Events""
+        Count = $PowerShellResults.Count
+    }
+
+    [PSCustomObject]@{
+        Category = ""Potential Security Alerts""
+        Count = $AllAlerts.Count
+    }
+)
+
+$Summary |
+Export-Csv ""$OutputFolder\SOC-Summary.csv"" -NoTypeInformation
+
+Write-Host ""`n======================================""
+Write-Host "" SOC INVESTIGATION SUMMARY""
+Write-Host ""======================================""
+
+$Summary | Format-Table -AutoSize
+
+Write-Host ""`nFinal alerts generated: $($AllAlerts.Count)""
+Write-Host ""Reports saved in Logs folder.""
+Write-Host ""======================================"""
+"11/11/2026 3:07:29 PM","powershell.exe -NoProfile -ExecutionPolicy Bypass -File "".\Scripts\SOC-Automated-Detection.ps1"""
+"11/11/2026 3:04:37 PM","$global:?"
+"11/11/2026 3:04:37 PM","{
+    $_.ScriptBlock -match $Pattern -and
+    $_.ScriptBlock -notmatch '(?i)SOC-Week02|Detect-PowerShellActivity|Detect-SuspiciousProcesses|Day4-Test'
+}"
+"11/11/2026 3:04:37 PM","# SOC Week 2 - Day 4
+# PowerShell Activity Detection
+
+$StartTime = (Get-Date).AddHours(-24)
+
+$Events = Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-PowerShell/Operational'
+    Id = 4104
+    StartTime = $StartTime
+} -MaxEvents 500 -ErrorAction SilentlyContinue
+
+$Results = foreach ($Event in $Events) {
+
+    [xml]$Xml = $Event.ToXml()
+    $Data = @{}
+
+    foreach ($Item in $Xml.Event.EventData.Data) {
+        $Data[$Item.Name] = [string]$Item.'#text'
+    }
+
+    [PSCustomObject]@{
+        TimeCreated = $Event.TimeCreated
+        EventID     = $Event.Id
+        ScriptBlock = $Data['ScriptBlockText']
+        ScriptID    = $Data['ScriptBlockId']
+    }
+}
+
+$Results | Export-Csv "".\Logs\PowerShell-Activity.csv"" -NoTypeInformation
+
+$Pattern = '(?i)(encodedcommand|downloadstring|frombase64string|invoke-expression|hidden|executionpolicy\s+bypass)'
+
+$Alerts = $Results | Where-Object {
+    $_.ScriptBlock -match $Pattern -and
+    $_.ScriptBlock -notmatch '(?i)SOC-Week02|Detect-PowerShellActivity|Detect-SuspiciousProcesses|Day4-Test'
+}
+
+$Alerts | Export-Csv "".\Logs\PowerShell-Alerts.csv"" -NoTypeInformation
+
+Write-Host ""====================================""
+Write-Host ""POWERSHELL ACTIVITY DETECTION""
+Write-Host ""====================================""
+Write-Host ""Total PowerShell events: $($Results.Count)""
+Write-Host ""Potential suspicious events: $($Alerts.Count)""
+
+$Alerts | Format-Table TimeCreated, EventID, ScriptBlock -Wrap"
+"11/11/2026 3:04:37 PM","powershell.exe -NoProfile -ExecutionPolicy Bypass -File "".\Scripts\Detect-PowerShellActivity.ps1"""
+"11/11/2026 3:01:13 PM","$global:?"
+"11/11/2026 3:01:13 PM","{
+    $_.ScriptBlock -match $Pattern
+}"
+"11/11/2026 3:01:12 PM","# SOC Week 2 - Day 4
+# PowerShell Activity Detection
+
+$StartTime = (Get-Date).AddHours(-24)
+
+$Events = Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-PowerShell/Operational'
+    Id = 4104
+    StartTime = $StartTime
+} -MaxEvents 500 -ErrorAction SilentlyContinue
+
+$Results = foreach ($Event in $Events) {
+
+    [xml]$Xml = $Event.ToXml()
+    $Data = @{}
+
+    foreach ($Item in $Xml.Event.EventData.Data) {
+        $Data[$Item.Name] = [string]$Item.'#text'
+    }
+
+    [PSCustomObject]@{
+        TimeCreated = $Event.TimeCreated
+        EventID     = $Event.Id
+        ScriptBlock = $Data['ScriptBlockText']
+        ScriptID    = $Data['ScriptBlockId']
+    }
+}
+
+$Results | Export-Csv "".\Logs\PowerShell-Activity.csv"" -NoTypeInformation
+
+$Pattern = '(?i)(encodedcommand|downloadstring|frombase64string|invoke-expression|hidden|executionpolicy\s+bypass)'
+
+$Alerts = $Results | Where-Object {
+    $_.ScriptBlock -match $Pattern
+}
+
+$Alerts | Export-Csv "".\Logs\PowerShell-Alerts.csv"" -NoTypeInformation
+
+Write-Host ""====================================""
+Write-Host ""POWERSHELL ACTIVITY DETECTION""
+Write-Host ""====================================""
+Write-Host ""Total PowerShell events: $($Results.Count)""
+Write-Host ""Potential suspicious events: $($Alerts.Count)""
+
+$Alerts | Format-Table TimeCreated, EventID, ScriptBlock -Wrap"
+"11/11/2026 3:01:12 PM","powershell.exe -NoProfile -ExecutionPolicy Bypass -File "".\Scripts\Detect-PowerShellActivity.ps1"""
+"11/11/2026 2:58:52 PM","$Path = ""HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging""
+
+New-Item -Path $Path -Force"
+"11/11/2026 2:57:09 PM","# SOC Week 2 - Day 3
+# Suspicious Process Detection
+
+$StartTime = (Get-Date).AddHours(-24)
+
+$Events = Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-Sysmon/Operational'
+    Id = 1
+    StartTime = $StartTime
+} -MaxEvents 500 -ErrorAction SilentlyContinue
+
+$Results = foreach ($Event in $Events) {
+
+    [xml]$Xml = $Event.ToXml()
+    $Data = @{}
+
+    foreach ($Item in $Xml.Event.EventData.Data) {
+        $Data[$Item.Name] = [string]$Item.'#text'
+    }
+
+    [PSCustomObject]@{
+        TimeCreated = $Event.TimeCreated
+        Image       = $Data['Image']
+        CommandLine = $Data['CommandLine']
+        ParentImage = $Data['ParentImage']
+        User        = $Data['User']
+        ProcessId   = $Data['ProcessId']
+    }
+}
+
+$Results | Export-Csv "".\Logs\Process-Activity.csv"" -NoTypeInformation
+
+$Pattern = '(?i)(-encodedcommand\b|-enc\b|-windowstyle\s+hidden|-executionpolicy\s+bypass|downloadstring|frombase64string|invoke-expression|https?://)'
+
+$Alerts = $Results | Where-Object {
+    $_.CommandLine -match $Pattern
+}
+
+$Alerts | Export-Csv "".\Logs\Suspicious-Process-Alerts.csv"" -NoTypeInformation
+
+Write-Host ""====================================""
+Write-Host ""SUSPICIOUS PROCESS DETECTION""
+Write-Host ""====================================""
+Write-Host ""Total process events: $($Results.Count)""
+Write-Host ""Potential suspicious events: $($Alerts.Count)""
+
+$Alerts | Format-Table TimeCreated, Image, CommandLine -Wrap"
+"11/11/2026 2:57:09 PM","powershell.exe -NoProfile -ExecutionPolicy Bypass -File "".\Scripts\Detect-SuspiciousProcesses.ps1"""
+"11/11/2026 2:53:22 PM","powershell.exe -NoProfile -ExecutionPolicy Bypass -File "".\Scripts\Detect-FailedLogons.ps1"""
+"11/11/2026 2:43:12 PM","powershell.exe -NoProfile -ExecutionPolicy Bypass -File "".\Scripts\Detect-FailedLogons.ps1"""
+"11/11/2026 2:37:23 PM","powershell.exe -NoProfile -ExecutionPolicy Bypass -File "".\Scripts\Detect-FailedLogons.ps1"""
+"11/11/2026 2:35:41 PM","powershell.exe -NoProfile -ExecutionPolicy Bypass -File "".\Scripts\Detect-FailedLogons.ps1"""

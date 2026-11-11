@@ -1,0 +1,2401 @@
+"TimeCreated","Id","ProviderName","Message"
+"11/11/2026 2:26:55 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:55.718
+ProcessGuid: {5a81586e-2dd7-6af4-a339-000000002100}
+ProcessId: 18752
+Image: C:\Windows\System32\RuntimeBroker.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Runtime Broker
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: RuntimeBroker.exe
+CommandLine: C:\Windows\System32\RuntimeBroker.exe -Embedding
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=EA91CD0634C69789B68770311B4E892010FE9E37D16C15FD33C461A04CEBE4E3
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:26:55 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:55.587
+ProcessGuid: {5a81586e-2dd7-6af4-a239-000000002100}
+ProcessId: 4740
+Image: C:\Windows\System32\backgroundTaskHost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: Background Task Host
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: backgroundTaskHost.exe
+CommandLine: ""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca
+CurrentDirectory: C:\WINDOWS\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: AppContainer
+Hashes: SHA256=7077CBF56490C86FC74C0CC6C0379AB679F06A066E71906AD23458F664836449
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:26:55 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:55.543
+ProcessGuid: {5a81586e-2dd7-6af4-a139-000000002100}
+ProcessId: 5368
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-2170-660700000000}
+LogonId: 0x7667021
+TerminalSessionId: 10
+IntegrityLevel: High
+Hashes: SHA256=4D84D1DB6C572DA841307B814CCF26478429D3A29F304755CE1BAF110E639F64
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:26:36 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:36.495
+ProcessGuid: {5a81586e-2dc4-6af4-a039-000000002100}
+ProcessId: 16656
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:26:23 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:23.713
+ProcessGuid: {5a81586e-2db7-6af4-9f39-000000002100}
+ProcessId: 12636
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:26:18 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:18.945
+ProcessGuid: {5a81586e-2db2-6af4-9e39-000000002100}
+ProcessId: 14608
+Image: C:\Windows\System32\SearchFilterHost.exe
+FileVersion: 7.0.19041.7802 (WinBuild.160101.0800)
+Description: Microsoft Windows Search Filter Host
+Product: Windows? Search
+Company: Microsoft Corporation
+OriginalFileName: SearchFilterHost.exe
+CommandLine: ""C:\WINDOWS\system32\SearchFilterHost.exe"" 0 864 868 876 8192 872 852 
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: Medium
+Hashes: SHA256=7E183971AFCBB22BB1E636BEDC6A25FC8614FD12FF50C2746E6897661D31D449
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 4196
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -"
+"11/11/2026 2:26:17 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:17.290
+ProcessGuid: {5a81586e-2db1-6af4-9d39-000000002100}
+ProcessId: 5552
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe
+FileVersion: 10.2.3
+Description: Registry monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-regmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=4EC928823D0653E6BB3259E041B889DF6945BBFB2B77FC9EB473838FB88B3E35
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:26:16 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:16.506
+ProcessGuid: {5a81586e-2db0-6af4-9c39-000000002100}
+ProcessId: 20920
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe
+FileVersion: 10.2.3
+Description: Monitor windows event logs
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-winevtlog.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=B5DB9D8165D30FAD147D798236D66D2D7C2BC9E7C77530FFB66ED988254470FF
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:26:14 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:14.538
+ProcessGuid: {5a81586e-2dae-6af4-9b39-000000002100}
+ProcessId: 8664
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:26:13 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:13.780
+ProcessGuid: {5a81586e-2dad-6af4-9a39-000000002100}
+ProcessId: 19436
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe"" --ps2
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:26:11 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:11.275
+ProcessGuid: {5a81586e-2dab-6af4-9939-000000002100}
+ProcessId: 21108
+Image: C:\Windows\System32\RuntimeBroker.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Runtime Broker
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: RuntimeBroker.exe
+CommandLine: C:\Windows\System32\RuntimeBroker.exe -Embedding
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=EA91CD0634C69789B68770311B4E892010FE9E37D16C15FD33C461A04CEBE4E3
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:26:10 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:10.961
+ProcessGuid: {5a81586e-2daa-6af4-9839-000000002100}
+ProcessId: 10568
+Image: C:\Windows\System32\backgroundTaskHost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: Background Task Host
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: backgroundTaskHost.exe
+CommandLine: ""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca
+CurrentDirectory: C:\WINDOWS\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: AppContainer
+Hashes: SHA256=7077CBF56490C86FC74C0CC6C0379AB679F06A066E71906AD23458F664836449
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:26:10 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:10.900
+ProcessGuid: {5a81586e-2daa-6af4-9739-000000002100}
+ProcessId: 16456
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-2170-660700000000}
+LogonId: 0x7667021
+TerminalSessionId: 10
+IntegrityLevel: High
+Hashes: SHA256=4D84D1DB6C572DA841307B814CCF26478429D3A29F304755CE1BAF110E639F64
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:26:10 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:10.539
+ProcessGuid: {5a81586e-2daa-6af4-9639-000000002100}
+ProcessId: 7768
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+FileVersion: 10.2.3
+Description: Active Directory monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-admon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=923EB76A17FB5B746DB6B729B1852F1A50D25EF4D2C5576B6AEED0548D11D827
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:26:09 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:09.772
+ProcessGuid: {5a81586e-2da9-6af4-9539-000000002100}
+ProcessId: 14496
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe
+FileVersion: 10.2.3
+Description: Network monitor
+Product: Splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-netmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=CFFA761D483A9ED5970D020FAEE647602FC2D1BEE0917C515FA7A27865C84F96
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:26:09 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:56:08.995
+ProcessGuid: {5a81586e-2da8-6af4-9439-000000002100}
+ProcessId: 9948
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+FileVersion: 10.0.10011.16384
+Description: SplunkMonNoHandle Control Program
+Product: Windows (R) Win 7 DDK driver
+Company: Windows (R) Win 7 DDK provider
+OriginalFileName: SplunkMonNoHandle.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=86697DB5B59F9E9E5B45141B11384A97C3703B239FA2C3F4E676C6ED04E7C2BE
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:25:32 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:32.507
+ProcessGuid: {5a81586e-2d84-6af4-9339-000000002100}
+ProcessId: 7480
+Image: C:\Windows\System32\audiodg.exe
+FileVersion: 10.0.19041.7802 (WinBuild.160101.0800)
+Description: Windows Audio Device Graph Isolation 
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: audioadg.exe
+CommandLine: C:\WINDOWS\system32\AUDIODG.EXE 0x17c 0x5b4
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\LOCAL SERVICE
+LogonGuid: {5a81586e-984f-6aec-e503-000000000000}
+LogonId: 0x3E5
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=B4B7B2E56963146ACC01B7CF9D72FD966CBFA47017740C208F34788F445092EE
+ParentProcessGuid: {5a81586e-9851-6aec-4000-000000002100}
+ParentProcessId: 3064
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\System32\svchost.exe -k LocalServiceNetworkRestricted -p
+ParentUser: NT AUTHORITY\LOCAL SERVICE"
+"11/11/2026 2:25:32 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:32.176
+ProcessGuid: {5a81586e-2d84-6af4-9239-000000002100}
+ProcessId: 12960
+Image: C:\Windows\System32\RuntimeBroker.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Runtime Broker
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: RuntimeBroker.exe
+CommandLine: C:\Windows\System32\RuntimeBroker.exe -Embedding
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=EA91CD0634C69789B68770311B4E892010FE9E37D16C15FD33C461A04CEBE4E3
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:25:26 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:26.661
+ProcessGuid: {5a81586e-2d7e-6af4-9139-000000002100}
+ProcessId: 15320
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:25:17 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:17.274
+ProcessGuid: {5a81586e-2d75-6af4-9039-000000002100}
+ProcessId: 19728
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe
+FileVersion: 10.2.3
+Description: Monitor windows event logs
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-winevtlog.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=B5DB9D8165D30FAD147D798236D66D2D7C2BC9E7C77530FFB66ED988254470FF
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:25:16 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:16.499
+ProcessGuid: {5a81586e-2d74-6af4-8f39-000000002100}
+ProcessId: 13140
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe
+FileVersion: 10.2.3
+Description: Registry monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-regmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=4EC928823D0653E6BB3259E041B889DF6945BBFB2B77FC9EB473838FB88B3E35
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:25:15 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:15.420
+ProcessGuid: {5a81586e-2d73-6af4-8e39-000000002100}
+ProcessId: 21088
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe"" --ps2
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:25:14 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:14.696
+ProcessGuid: {5a81586e-2d72-6af4-8d39-000000002100}
+ProcessId: 15408
+Image: C:\Windows\System32\SearchProtocolHost.exe
+FileVersion: 7.0.19041.7802 (WinBuild.160101.0800)
+Description: Microsoft Windows Search Protocol Host
+Product: Windows? Search
+Company: Microsoft Corporation
+OriginalFileName: SearchProtocolHost.exe
+CommandLine: ""C:\WINDOWS\system32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe_S-1-5-21-3473605998-540748245-4165489986-100195_ Global\UsGthrCtrlFltPipeMssGthrPipe_S-1-5-21-3473605998-540748245-4165489986-100195 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon""  ""1""
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=772819B3A76FA862A9D4D0E0315D64D4AB5AD966C3D786C2269BF136EFE8B45A
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 4196
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -"
+"11/11/2026 2:25:14 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:14.363
+ProcessGuid: {5a81586e-2d72-6af4-8c39-000000002100}
+ProcessId: 17296
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:25:11 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:11.760
+ProcessGuid: {5a81586e-2d6f-6af4-8b39-000000002100}
+ProcessId: 19844
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+FileVersion: 10.0.10011.16384
+Description: SplunkMonNoHandle Control Program
+Product: Windows (R) Win 7 DDK driver
+Company: Windows (R) Win 7 DDK provider
+OriginalFileName: SplunkMonNoHandle.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=86697DB5B59F9E9E5B45141B11384A97C3703B239FA2C3F4E676C6ED04E7C2BE
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:25:10 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:10.421
+ProcessGuid: {5a81586e-2d6e-6af4-8a39-000000002100}
+ProcessId: 17504
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+FileVersion: 10.2.3
+Description: Active Directory monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-admon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=923EB76A17FB5B746DB6B729B1852F1A50D25EF4D2C5576B6AEED0548D11D827
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:25:08 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:08.973
+ProcessGuid: {5a81586e-2d6c-6af4-8939-000000002100}
+ProcessId: 2332
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe
+FileVersion: 10.2.3
+Description: Network monitor
+Product: Splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-netmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=CFFA761D483A9ED5970D020FAEE647602FC2D1BEE0917C515FA7A27865C84F96
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:25:01 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:01.704
+ProcessGuid: {5a81586e-2d65-6af4-8839-000000002100}
+ProcessId: 3472
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPSOFF~1\1210~1.296\office6\wps.exe
+FileVersion: 12,1,0,29681
+Description: WPS Office
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: wps_host_xa.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPSOFF~1\1210~1.296\office6\wps.exe"" Run /AppUserModelID=Kingsoft.Office.cefhomepage -Entry=CefRenderEntryPoint -EncodePathU8=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGtzb2pzY29yZS5kbGw= -EncodePath QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGtzb2pzY29yZS5kbGw= -CefPluginPathU8=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGFkZG9uc1xjZWY= -CefPluginPath=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGFkZG9uc1xjZWY= -JSCefServicePath=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGFkZG9uc1xrY2VmXGpzY2Vmc2VydmljZS5kbGw= -CefParentID=20236 ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6\promecefpluginhost.exe"" --type=renderer --log-severity=disable --disable-pdf-extension --user-data-dir=""C:\Users\Admin\AppData\Local\CEF\User Data"" --jbserver=browser.a3ba19ec797144349ea5dbc1b742aca1.29681.e3afed0047b08059.dpi1.pipe --no-sandbox --force-device-scale-factor=1 --log-file=""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\debug.log"" --js-flags=--expose-gc --lang=zh-CN --no-zygote --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --launch-time-ticks=496989297612 --mojo-platform-channel-handle=3052 --field-trial-handle=2236,i,11986056846925414205,5079502633001134703,131072 --disable-features=TSFImeSupport /prefetch:1
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=FE8E9C5B4A2DEE7640EC6D4F430AB94BD6F9754FA851E5F8EFD34C69FCE6B8FD
+ParentProcessGuid: {5a81586e-2d64-6af4-8039-000000002100}
+ParentProcessId: 20236
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe""  Run -Entry=EntryPoint ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6/addons/kcef/jsapibrowser.dll"" --server=browser.a3ba19ec797144349ea5dbc1b742aca1.29681.e3afed0047b08059.dpi1.pipe --from=wpsoffice
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:25:01 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:01.692
+ProcessGuid: {5a81586e-2d65-6af4-8739-000000002100}
+ProcessId: 12964
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPSOFF~1\1210~1.296\office6\wps.exe
+FileVersion: 12,1,0,29681
+Description: WPS Office
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: wps_host_xa.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPSOFF~1\1210~1.296\office6\wps.exe"" Run /AppUserModelID=Kingsoft.Office.cefhomepage -Entry=CefRenderEntryPoint -EncodePathU8=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGtzb2pzY29yZS5kbGw= -EncodePath QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGtzb2pzY29yZS5kbGw= -CefPluginPathU8=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGFkZG9uc1xjZWY= -CefPluginPath=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGFkZG9uc1xjZWY= -JSCefServicePath=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGFkZG9uc1xrY2VmXGpzY2Vmc2VydmljZS5kbGw= -CefParentID=20236 ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6\promecefpluginhost.exe"" --type=renderer --log-severity=disable --disable-pdf-extension --user-data-dir=""C:\Users\Admin\AppData\Local\CEF\User Data"" --jbserver=browser.a3ba19ec797144349ea5dbc1b742aca1.29681.e3afed0047b08059.dpi1.pipe --no-sandbox --force-device-scale-factor=1 --log-file=""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\debug.log"" --js-flags=--expose-gc --lang=zh-CN --no-zygote --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=496989286172 --mojo-platform-channel-handle=2972 --field-trial-handle=2236,i,11986056846925414205,5079502633001134703,131072 --disable-features=TSFImeSupport /prefetch:1
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=FE8E9C5B4A2DEE7640EC6D4F430AB94BD6F9754FA851E5F8EFD34C69FCE6B8FD
+ParentProcessGuid: {5a81586e-2d64-6af4-8039-000000002100}
+ParentProcessId: 20236
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe""  Run -Entry=EntryPoint ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6/addons/kcef/jsapibrowser.dll"" --server=browser.a3ba19ec797144349ea5dbc1b742aca1.29681.e3afed0047b08059.dpi1.pipe --from=wpsoffice
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:25:01 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:01.675
+ProcessGuid: {5a81586e-2d65-6af4-8639-000000002100}
+ProcessId: 22216
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPSOFF~1\1210~1.296\office6\wps.exe
+FileVersion: 12,1,0,29681
+Description: WPS Office
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: wps_host_xa.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPSOFF~1\1210~1.296\office6\wps.exe"" Run /AppUserModelID=Kingsoft.Office.cefhomepage -Entry=CefRenderEntryPoint -EncodePathU8=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGtzb2pzY29yZS5kbGw= -EncodePath QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGtzb2pzY29yZS5kbGw= -CefPluginPathU8=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGFkZG9uc1xjZWY= -CefPluginPath=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGFkZG9uc1xjZWY= -JSCefServicePath=QzpcVXNlcnNcQWRtaW5cQXBwRGF0YVxMb2NhbFxLaW5nc29mdFxXUFMgT2ZmaWNlXDEyLjEuMC4yOTY4MVxvZmZpY2U2XGFkZG9uc1xrY2VmXGpzY2Vmc2VydmljZS5kbGw= -CefParentID=20236 ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6\promecefpluginhost.exe"" --type=renderer --log-severity=disable --disable-pdf-extension --user-data-dir=""C:\Users\Admin\AppData\Local\CEF\User Data"" --jbserver=browser.a3ba19ec797144349ea5dbc1b742aca1.29681.e3afed0047b08059.dpi1.pipe --no-sandbox --force-device-scale-factor=1 --log-file=""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\debug.log"" --js-flags=--expose-gc --lang=zh-CN --no-zygote --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=496989269065 --mojo-platform-channel-handle=2964 --field-trial-handle=2236,i,11986056846925414205,5079502633001134703,131072 --disable-features=TSFImeSupport /prefetch:1
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=FE8E9C5B4A2DEE7640EC6D4F430AB94BD6F9754FA851E5F8EFD34C69FCE6B8FD
+ParentProcessGuid: {5a81586e-2d64-6af4-8039-000000002100}
+ParentProcessId: 20236
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe""  Run -Entry=EntryPoint ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6/addons/kcef/jsapibrowser.dll"" --server=browser.a3ba19ec797144349ea5dbc1b742aca1.29681.e3afed0047b08059.dpi1.pipe --from=wpsoffice
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:25:01 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:01.616
+ProcessGuid: {5a81586e-2d65-6af4-8539-000000002100}
+ProcessId: 21488
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\promecefpluginhost.exe
+FileVersion: 12,1,0,29681
+Description: Prome CEF SubProcess
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: promecefpluginhost.exe
+CommandLine: ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6\promecefpluginhost.exe"" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=zh-CN --service-sandbox-type=none --no-sandbox --log-severity=disable --lang=zh-CN --user-data-dir=""C:\Users\Admin\AppData\Local\CEF\User Data"" --log-file=""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\debug.log"" --mojo-platform-channel-handle=2784 --field-trial-handle=2236,i,11986056846925414205,5079502633001134703,131072 --disable-features=TSFImeSupport /prefetch:8
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=5200BE914CC28DFADD50729BB9C2BE6D3239D2F5C5996522FCA5C4DF20443D13
+ParentProcessGuid: {5a81586e-2d64-6af4-8039-000000002100}
+ParentProcessId: 20236
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe""  Run -Entry=EntryPoint ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6/addons/kcef/jsapibrowser.dll"" --server=browser.a3ba19ec797144349ea5dbc1b742aca1.29681.e3afed0047b08059.dpi1.pipe --from=wpsoffice
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:25:01 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:01.249
+ProcessGuid: {5a81586e-2d65-6af4-8439-000000002100}
+ProcessId: 19312
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\promecefpluginhost.exe
+FileVersion: 12,1,0,29681
+Description: Prome CEF SubProcess
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: promecefpluginhost.exe
+CommandLine: ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6\promecefpluginhost.exe"" --type=gpu-process --no-sandbox --log-severity=disable --lang=zh-CN --user-data-dir=""C:\Users\Admin\AppData\Local\CEF\User Data"" --gpu-preferences=UAAAAAAAAADgACAYAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAASAAAAAAAAAAYAAAAAgAAABAAAAAAAAAAGAAAAAAAAAAQAAAAAAAAAAAAAAAOAAAAEAAAAAAAAAABAAAADgAAAAgAAAAAAAAACAAAAAAAAAA= --log-file=""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\debug.log"" --mojo-platform-channel-handle=1872 --field-trial-handle=2236,i,11986056846925414205,5079502633001134703,131072 --disable-features=TSFImeSupport /prefetch:2
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=5200BE914CC28DFADD50729BB9C2BE6D3239D2F5C5996522FCA5C4DF20443D13
+ParentProcessGuid: {5a81586e-2d64-6af4-8039-000000002100}
+ParentProcessId: 20236
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe""  Run -Entry=EntryPoint ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6/addons/kcef/jsapibrowser.dll"" --server=browser.a3ba19ec797144349ea5dbc1b742aca1.29681.e3afed0047b08059.dpi1.pipe --from=wpsoffice
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:25:01 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:01.095
+ProcessGuid: {5a81586e-2d65-6af4-8339-000000002100}
+ProcessId: 20320
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+FileVersion: 12,1,0,29681
+Description: WPS Office
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: wps_host_xa.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe"" /prometheus /et ""C:\Users\Admin\Desktop\SOC-Week02\Logs\Security-Events.csv""
+CurrentDirectory: C:\Users\Admin\Desktop\SOC-Week02\Logs\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=FE8E9C5B4A2DEE7640EC6D4F430AB94BD6F9754FA851E5F8EFD34C69FCE6B8FD
+ParentProcessGuid: {5a81586e-29d9-6af4-3d37-000000002100}
+ParentProcessId: 11680
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\WINDOWS\Explorer.EXE
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:25:00 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:00.422
+ProcessGuid: {5a81586e-2d64-6af4-8239-000000002100}
+ProcessId: 9020
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\ksomisc.exe
+FileVersion: 12,1,0,29681
+Description: WPS Office Module
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: ksomisc.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\ksomisc.exe""  -assoprotect -source=8
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=91FCBEF8C3859E6CF81AFE6FB8D82CF455699A9452806C2D4B9A72CA87281705
+ParentProcessGuid: {5a81586e-2d5e-6af4-7e39-000000002100}
+ParentProcessId: 13988
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe"" /prometheus /et ""C:\Users\Admin\Desktop\SOC-Week02\Logs\Security-Events.csv""
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:25:00 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:00.406
+ProcessGuid: {5a81586e-2d64-6af4-8139-000000002100}
+ProcessId: 15144
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\ksomisc.exe
+FileVersion: 12,1,0,29681
+Description: WPS Office Module
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: ksomisc.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\ksomisc.exe""  -assoprotect -source=8
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=91FCBEF8C3859E6CF81AFE6FB8D82CF455699A9452806C2D4B9A72CA87281705
+ParentProcessGuid: {5a81586e-2d5a-6af4-7a39-000000002100}
+ParentProcessId: 16832
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe"" /prometheus /et ""C:\Users\Admin\Desktop\SOC-Week02\Logs\Security-Events.csv""
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:25:00 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:55:00.139
+ProcessGuid: {5a81586e-2d64-6af4-8039-000000002100}
+ProcessId: 20236
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+FileVersion: 12,1,0,29681
+Description: WPS Office
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: wps_host_xa.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe""  Run -Entry=EntryPoint ""C:/Users/Admin/AppData/Local/Kingsoft/WPS Office/12.1.0.29681/office6/addons/kcef/jsapibrowser.dll"" --server=browser.a3ba19ec797144349ea5dbc1b742aca1.29681.e3afed0047b08059.dpi1.pipe --from=wpsoffice
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=FE8E9C5B4A2DEE7640EC6D4F430AB94BD6F9754FA851E5F8EFD34C69FCE6B8FD
+ParentProcessGuid: {5a81586e-2d5a-6af4-7a39-000000002100}
+ParentProcessId: 16832
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe"" /prometheus /et ""C:\Users\Admin\Desktop\SOC-Week02\Logs\Security-Events.csv""
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:24:59 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:59.712
+ProcessGuid: {5a81586e-2d63-6af4-7f39-000000002100}
+ProcessId: 256
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\et.exe
+FileVersion: 12,1,0,29681
+Description: WPS Spreadsheets
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: et.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\et.exe"" /et /from_prome /prome-pipe-token=kprometheus.13988.4004.9082
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=7B80B787689E40A78AB16B1CE6F852DA33C6AAB2B7AA3FF85D42B5768CE435D4
+ParentProcessGuid: {5a81586e-2d5e-6af4-7e39-000000002100}
+ParentProcessId: 13988
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe"" /prometheus /et ""C:\Users\Admin\Desktop\SOC-Week02\Logs\Security-Events.csv""
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:24:54 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:54.206
+ProcessGuid: {5a81586e-2d5e-6af4-7e39-000000002100}
+ProcessId: 13988
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+FileVersion: 12,1,0,29681
+Description: WPS Office
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: wps_host_xa.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe"" /prometheus /et ""C:\Users\Admin\Desktop\SOC-Week02\Logs\Security-Events.csv""
+CurrentDirectory: C:\Users\Admin\Desktop\SOC-Week02\Logs\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=FE8E9C5B4A2DEE7640EC6D4F430AB94BD6F9754FA851E5F8EFD34C69FCE6B8FD
+ParentProcessGuid: {5a81586e-29d9-6af4-3d37-000000002100}
+ParentProcessId: 11680
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\WINDOWS\Explorer.EXE
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:24:53 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:52.998
+ProcessGuid: {5a81586e-2d5c-6af4-7d39-000000002100}
+ProcessId: 16660
+Image: C:\Windows\System32\ClipESUConsumer.exe
+FileVersion: 10.0.19041.7802 (WinBuild.160101.0800)
+Description: Clip ESU Consumer executable
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: ClipESUConsumer.exe
+CommandLine: ""C:\WINDOWS\system32\ClipESUConsumer.exe"" -persistEligibilityStatus
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=9B089423D6ED636E48D6A4A322E86BE61065FD756B76ABDC7969117529CFC523
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:24:51 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:51.907
+ProcessGuid: {5a81586e-2d5b-6af4-7c39-000000002100}
+ProcessId: 17508
+Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+FileVersion: 10.0.19041.7802 (WinBuild.160101.0800)
+Description: WMI Provider Host
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: Wmiprvse.exe
+CommandLine: C:\WINDOWS\system32\wbem\wmiprvse.exe -secured -Embedding
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\NETWORK SERVICE
+LogonGuid: {5a81586e-984f-6aec-e403-000000000000}
+LogonId: 0x3E4
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=389D51438E9954DDEA47683FD1100D61094549D4E9874C4F0D1B946B0B7FA712
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:24:51 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:51.361
+ProcessGuid: {5a81586e-2d5b-6af4-7b39-000000002100}
+ProcessId: 15764
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\et.exe
+FileVersion: 12,1,0,29681
+Description: WPS Spreadsheets
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: et.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\et.exe"" /et /from_prome /prome-pipe-token=kprometheus.16832.6348.9063 /prome-prestart-type=1
+CurrentDirectory: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=7B80B787689E40A78AB16B1CE6F852DA33C6AAB2B7AA3FF85D42B5768CE435D4
+ParentProcessGuid: {5a81586e-2d5a-6af4-7a39-000000002100}
+ParentProcessId: 16832
+ParentImage: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+ParentCommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe"" /prometheus /et ""C:\Users\Admin\Desktop\SOC-Week02\Logs\Security-Events.csv""
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:24:50 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:50.101
+ProcessGuid: {5a81586e-2d5a-6af4-7a39-000000002100}
+ProcessId: 16832
+Image: C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe
+FileVersion: 12,1,0,29681
+Description: WPS Office
+Product: WPS Office
+Company: WPS SOFTWARE PTE. LTD.
+OriginalFileName: wps_host_xa.exe
+CommandLine: ""C:\Users\Admin\AppData\Local\Kingsoft\WPS Office\12.1.0.29681\office6\wps.exe"" /prometheus /et ""C:\Users\Admin\Desktop\SOC-Week02\Logs\Security-Events.csv""
+CurrentDirectory: C:\Users\Admin\Desktop\SOC-Week02\Logs\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=FE8E9C5B4A2DEE7640EC6D4F430AB94BD6F9754FA851E5F8EFD34C69FCE6B8FD
+ParentProcessGuid: {5a81586e-29d9-6af4-3d37-000000002100}
+ParentProcessId: 11680
+ParentImage: C:\Windows\explorer.exe
+ParentCommandLine: C:\WINDOWS\Explorer.EXE
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:24:50 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:50.017
+ProcessGuid: {5a81586e-2d5a-6af4-7939-000000002100}
+ProcessId: 16576
+Image: C:\Windows\System32\smartscreen.exe
+FileVersion: 10.0.19041.7802 (WinBuild.160101.0800)
+Description: Windows Defender SmartScreen
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: smartscreen.exe
+CommandLine: C:\Windows\System32\smartscreen.exe -Embedding
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=B639178A783AE1356D4A561CDE9AE3CE99780C471B45C323248AC3A27E6F9975
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:24:28 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:28.146
+ProcessGuid: {5a81586e-2d44-6af4-7839-000000002100}
+ProcessId: 11916
+Image: C:\Windows\System32\rundll32.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Windows host process (Rundll32)
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: RUNDLL32.EXE
+CommandLine: C:\WINDOWS\System32\rundll32.exe C:\WINDOWS\System32\shell32.dll,SHCreateLocalServerRunDll {9aa46009-3ce0-458a-a354-715610a075e6} -Embedding
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=076592CA1957F8F357CC201F0015072C612F5770AD7DE85F87F254253C754DD7
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:24:27 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:27.636
+ProcessGuid: {5a81586e-2d43-6af4-7739-000000002100}
+ProcessId: 9864
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: ""C:\WINDOWS\system32\DllHost.exe"" /Processid:{AD54D7CA-052D-4730-B0F2-2BA34D3438DC}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:24:27 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:27.516
+ProcessGuid: {5a81586e-2d43-6af4-7639-000000002100}
+ProcessId: 14684
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: ""C:\WINDOWS\system32\DllHost.exe"" /Processid:{D28D30E7-17F3-41D9-93F0-9BAE6DC4884B}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:24:20 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:20.497
+ProcessGuid: {5a81586e-2d3c-6af4-7539-000000002100}
+ProcessId: 6756
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:24:17 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:17.237
+ProcessGuid: {5a81586e-2d39-6af4-7439-000000002100}
+ProcessId: 8464
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe
+FileVersion: 10.2.3
+Description: Registry monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-regmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=4EC928823D0653E6BB3259E041B889DF6945BBFB2B77FC9EB473838FB88B3E35
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:24:16 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:16.475
+ProcessGuid: {5a81586e-2d38-6af4-7339-000000002100}
+ProcessId: 11184
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe
+FileVersion: 10.2.3
+Description: Monitor windows event logs
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-winevtlog.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=B5DB9D8165D30FAD147D798236D66D2D7C2BC9E7C77530FFB66ED988254470FF
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:24:14 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:14.699
+ProcessGuid: {5a81586e-2d36-6af4-7239-000000002100}
+ProcessId: 9492
+Image: C:\Windows\System32\SearchFilterHost.exe
+FileVersion: 7.0.19041.7802 (WinBuild.160101.0800)
+Description: Microsoft Windows Search Filter Host
+Product: Windows? Search
+Company: Microsoft Corporation
+OriginalFileName: SearchFilterHost.exe
+CommandLine: ""C:\WINDOWS\system32\SearchFilterHost.exe"" 0 864 868 876 8192 872 852 
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: Medium
+Hashes: SHA256=7E183971AFCBB22BB1E636BEDC6A25FC8614FD12FF50C2746E6897661D31D449
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+ParentProcessId: 4196
+ParentImage: -
+ParentCommandLine: -
+ParentUser: -"
+"11/11/2026 2:24:14 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:14.525
+ProcessGuid: {5a81586e-2d36-6af4-7139-000000002100}
+ProcessId: 2456
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe"" --ps2
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:24:13 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:13.759
+ProcessGuid: {5a81586e-2d35-6af4-7039-000000002100}
+ProcessId: 444
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:24:10 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:10.670
+ProcessGuid: {5a81586e-2d32-6af4-6f39-000000002100}
+ProcessId: 14224
+Image: C:\Windows\System32\backgroundTaskHost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: Background Task Host
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: backgroundTaskHost.exe
+CommandLine: ""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca
+CurrentDirectory: C:\WINDOWS\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: AppContainer
+Hashes: SHA256=7077CBF56490C86FC74C0CC6C0379AB679F06A066E71906AD23458F664836449
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:24:10 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:10.637
+ProcessGuid: {5a81586e-2d32-6af4-6e39-000000002100}
+ProcessId: 17980
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-2170-660700000000}
+LogonId: 0x7667021
+TerminalSessionId: 10
+IntegrityLevel: High
+Hashes: SHA256=4D84D1DB6C572DA841307B814CCF26478429D3A29F304755CE1BAF110E639F64
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:24:10 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:10.520
+ProcessGuid: {5a81586e-2d32-6af4-6d39-000000002100}
+ProcessId: 15672
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe
+FileVersion: 10.2.3
+Description: Network monitor
+Product: Splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-netmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=CFFA761D483A9ED5970D020FAEE647602FC2D1BEE0917C515FA7A27865C84F96
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:24:09 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:09.756
+ProcessGuid: {5a81586e-2d31-6af4-6c39-000000002100}
+ProcessId: 19424
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+FileVersion: 10.0.10011.16384
+Description: SplunkMonNoHandle Control Program
+Product: Windows (R) Win 7 DDK driver
+Company: Windows (R) Win 7 DDK provider
+OriginalFileName: SplunkMonNoHandle.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=86697DB5B59F9E9E5B45141B11384A97C3703B239FA2C3F4E676C6ED04E7C2BE
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:24:08 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:54:08.980
+ProcessGuid: {5a81586e-2d30-6af4-6b39-000000002100}
+ProcessId: 18312
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+FileVersion: 10.2.3
+Description: Active Directory monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-admon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=923EB76A17FB5B746DB6B729B1852F1A50D25EF4D2C5576B6AEED0548D11D827
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:23:53 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:53.516
+ProcessGuid: {5a81586e-2d21-6af4-6a39-000000002100}
+ProcessId: 3200
+Image: C:\Windows\System32\RuntimeBroker.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Runtime Broker
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: RuntimeBroker.exe
+CommandLine: C:\Windows\System32\RuntimeBroker.exe -Embedding
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=EA91CD0634C69789B68770311B4E892010FE9E37D16C15FD33C461A04CEBE4E3
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:53 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:53.310
+ProcessGuid: {5a81586e-2d21-6af4-6939-000000002100}
+ProcessId: 22332
+Image: C:\Windows\System32\backgroundTaskHost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: Background Task Host
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: backgroundTaskHost.exe
+CommandLine: ""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca
+CurrentDirectory: C:\WINDOWS\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: AppContainer
+Hashes: SHA256=7077CBF56490C86FC74C0CC6C0379AB679F06A066E71906AD23458F664836449
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:53 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:53.260
+ProcessGuid: {5a81586e-2d21-6af4-6839-000000002100}
+ProcessId: 22020
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-2170-660700000000}
+LogonId: 0x7667021
+TerminalSessionId: 10
+IntegrityLevel: High
+Hashes: SHA256=4D84D1DB6C572DA841307B814CCF26478429D3A29F304755CE1BAF110E639F64
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:28 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:28.878
+ProcessGuid: {5a81586e-2d08-6af4-6739-000000002100}
+ProcessId: 15680
+Image: C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe
+FileVersion: 157.0.8089.0
+Description: Google Updater (x64)
+Product: Google Updater (x64)
+Company: Google LLC
+OriginalFileName: updater.exe
+CommandLine: ""C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe"" --crash-handler --system ""--database=C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\Crashpad"" --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=157.0.8089.0 ""--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater.log"" ""--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater_history.jsonl"" --initial-client-data=0x288,0x28c,0x290,0x284,0x294,0x7ff7664c2d18,0x7ff7664c2d28,0x7ff7664c2d38
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=6E68DFAFFA39D7C90EFF0F5CF1BFBFE63D023AD3B1BD1987A836FCD138B147B4
+ParentProcessGuid: {5a81586e-2d08-6af4-6639-000000002100}
+ParentProcessId: 17036
+ParentImage: C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe
+ParentCommandLine: ""C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe"" --system --windows-service --service=update
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:28 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:28.848
+ProcessGuid: {5a81586e-2d08-6af4-6639-000000002100}
+ProcessId: 17036
+Image: C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe
+FileVersion: 157.0.8089.0
+Description: Google Updater (x64)
+Product: Google Updater (x64)
+Company: Google LLC
+OriginalFileName: updater.exe
+CommandLine: ""C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe"" --system --windows-service --service=update
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=6E68DFAFFA39D7C90EFF0F5CF1BFBFE63D023AD3B1BD1987A836FCD138B147B4
+ParentProcessGuid: {5a81586e-984e-6aec-0c00-000000002100}
+ParentProcessId: 868
+ParentImage: C:\Windows\System32\services.exe
+ParentCommandLine: C:\WINDOWS\system32\services.exe
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:28 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:28.748
+ProcessGuid: {5a81586e-2d08-6af4-6539-000000002100}
+ProcessId: 484
+Image: C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe
+FileVersion: 157.0.8089.0
+Description: Google Updater (x64)
+Product: Google Updater (x64)
+Company: Google LLC
+OriginalFileName: updater.exe
+CommandLine: ""C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe"" --crash-handler --system ""--database=C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\Crashpad"" --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=157.0.8089.0 ""--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater.log"" ""--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater_history.jsonl"" --initial-client-data=0x280,0x284,0x288,0x27c,0x28c,0x7ff7664c2d18,0x7ff7664c2d28,0x7ff7664c2d38
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=6E68DFAFFA39D7C90EFF0F5CF1BFBFE63D023AD3B1BD1987A836FCD138B147B4
+ParentProcessGuid: {5a81586e-2d08-6af4-6439-000000002100}
+ParentProcessId: 5324
+ParentImage: C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe
+ParentCommandLine: ""C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe"" --system --windows-service --service=update-internal
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:28 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:28.710
+ProcessGuid: {5a81586e-2d08-6af4-6439-000000002100}
+ProcessId: 5324
+Image: C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe
+FileVersion: 157.0.8089.0
+Description: Google Updater (x64)
+Product: Google Updater (x64)
+Company: Google LLC
+OriginalFileName: updater.exe
+CommandLine: ""C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe"" --system --windows-service --service=update-internal
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=6E68DFAFFA39D7C90EFF0F5CF1BFBFE63D023AD3B1BD1987A836FCD138B147B4
+ParentProcessGuid: {5a81586e-984e-6aec-0c00-000000002100}
+ParentProcessId: 868
+ParentImage: C:\Windows\System32\services.exe
+ParentCommandLine: C:\WINDOWS\system32\services.exe
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:28 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:28.593
+ProcessGuid: {5a81586e-2d08-6af4-6339-000000002100}
+ProcessId: 3104
+Image: C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe
+FileVersion: 157.0.8089.0
+Description: Google Updater (x64)
+Product: Google Updater (x64)
+Company: Google LLC
+OriginalFileName: updater.exe
+CommandLine: ""C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe"" --crash-handler --system ""--database=C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\Crashpad"" --url=https://clients2.google.com/cr/report --annotation=prod=Update4 --annotation=ver=157.0.8089.0 ""--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater.log"" ""--attachment=C:\Program Files (x86)\Google\GoogleUpdater\updater_history.jsonl"" --initial-client-data=0x270,0x274,0x278,0x26c,0x27c,0x7ff7664c2d18,0x7ff7664c2d28,0x7ff7664c2d38
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=6E68DFAFFA39D7C90EFF0F5CF1BFBFE63D023AD3B1BD1987A836FCD138B147B4
+ParentProcessGuid: {5a81586e-2d08-6af4-6239-000000002100}
+ParentProcessId: 1316
+ParentImage: C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe
+ParentCommandLine: ""C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe"" --wake --system
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:28 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:28.398
+ProcessGuid: {5a81586e-2d08-6af4-6239-000000002100}
+ProcessId: 1316
+Image: C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe
+FileVersion: 157.0.8089.0
+Description: Google Updater (x64)
+Product: Google Updater (x64)
+Company: Google LLC
+OriginalFileName: updater.exe
+CommandLine: ""C:\Program Files (x86)\Google\GoogleUpdater\157.0.8089.0\updater.exe"" --wake --system
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=6E68DFAFFA39D7C90EFF0F5CF1BFBFE63D023AD3B1BD1987A836FCD138B147B4
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:28 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:28.391
+ProcessGuid: {5a81586e-2d08-6af4-6139-000000002100}
+ProcessId: 3232
+Image: C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+FileVersion: 1.3.275.13
+Description: Microsoft Edge Update
+Product: Microsoft Edge Update
+Company: Microsoft Corporation
+OriginalFileName: MicrosoftEdgeUpdate.exe
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /ua /installsource scheduler
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=1D715E9790E43ACB426CC9A2779DEBB10003CF11740E014A8EDF47AFD46C420D
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:23:17 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:17.224
+ProcessGuid: {5a81586e-2cfd-6af4-6039-000000002100}
+ProcessId: 8664
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe
+FileVersion: 10.2.3
+Description: Monitor windows event logs
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-winevtlog.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=B5DB9D8165D30FAD147D798236D66D2D7C2BC9E7C77530FFB66ED988254470FF
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:23:16 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:16.458
+ProcessGuid: {5a81586e-2cfc-6af4-5f39-000000002100}
+ProcessId: 21892
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe
+FileVersion: 10.2.3
+Description: Registry monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-regmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=4EC928823D0653E6BB3259E041B889DF6945BBFB2B77FC9EB473838FB88B3E35
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:23:14 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:14.503
+ProcessGuid: {5a81586e-2cfa-6af4-5e39-000000002100}
+ProcessId: 20424
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:23:13 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:13.751
+ProcessGuid: {5a81586e-2cf9-6af4-5d39-000000002100}
+ProcessId: 21828
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe"" --ps2
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:23:10 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:10.473
+ProcessGuid: {5a81586e-2cf6-6af4-5c39-000000002100}
+ProcessId: 16724
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+FileVersion: 10.2.3
+Description: Active Directory monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-admon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=923EB76A17FB5B746DB6B729B1852F1A50D25EF4D2C5576B6AEED0548D11D827
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:23:09 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:09.722
+ProcessGuid: {5a81586e-2cf5-6af4-5b39-000000002100}
+ProcessId: 21648
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe
+FileVersion: 10.2.3
+Description: Network monitor
+Product: Splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-netmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=CFFA761D483A9ED5970D020FAEE647602FC2D1BEE0917C515FA7A27865C84F96
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:23:08 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:53:08.971
+ProcessGuid: {5a81586e-2cf4-6af4-5a39-000000002100}
+ProcessId: 21288
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+FileVersion: 10.0.10011.16384
+Description: SplunkMonNoHandle Control Program
+Product: Windows (R) Win 7 DDK driver
+Company: Windows (R) Win 7 DDK provider
+OriginalFileName: SplunkMonNoHandle.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=86697DB5B59F9E9E5B45141B11384A97C3703B239FA2C3F4E676C6ED04E7C2BE
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:22:51 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:51.833
+ProcessGuid: {5a81586e-2ce3-6af4-5939-000000002100}
+ProcessId: 22112
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:45 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:45.371
+ProcessGuid: {5a81586e-2cdd-6af4-5839-000000002100}
+ProcessId: 7480
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:39 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:39.601
+ProcessGuid: {5a81586e-2cd7-6af4-5739-000000002100}
+ProcessId: 9880
+Image: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2nqsd0c76g0\app\ChatGPT Classic.exe
+FileVersion: 1.2026.190
+Description: ChatGPT Classic
+Product: ChatGPT Classic
+Company: OpenAI
+OriginalFileName: ChatGPT Classic.exe
+CommandLine: ""C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2nqsd0c76g0\app\ChatGPT Classic.exe"" --type=utility --utility-sub-type=chrome.mojom.UtilWin --lang=en-US --service-sandbox-type=none --message-loop-type-ui --video-capture-use-gpu-memory-buffer --user-data-dir=""C:\Users\Admin\AppData\Local\Packages\OpenAI.ChatGPT-Desktop_2p2nqsd0c76g0\LocalCache\Roaming\ChatGPT"" --secure-schemes=sentry-ipc --bypasscsp-schemes=sentry-ipc --cors-schemes=sentry-ipc --fetch-schemes=sentry-ipc --field-trial-handle=2296,i,11344957448809058082,61845935690884357,262144 --enable-features=EnableTransparentHwndEnlargement,FluentScrollbar,PdfUseShowSaveFilePicker --disable-features=LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708994745248135 --mojo-platform-channel-handle=5296 /prefetch:8
+CurrentDirectory: C:\WINDOWS\System32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=23A6A82CB0A4AE8F89A8CB01178045ACB0C9579F7D45B01838286A4EF3F36BC5
+ParentProcessGuid: {5a81586e-29ec-6af4-6637-000000002100}
+ParentProcessId: 21444
+ParentImage: C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2nqsd0c76g0\app\ChatGPT Classic.exe
+ParentCommandLine: ""C:\Program Files\WindowsApps\OpenAI.ChatGPT-Desktop_1.2026.190.0_x64__2p2nqsd0c76g0\app\ChatGPT Classic.exe"" 
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:22:35 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:35.675
+ProcessGuid: {5a81586e-2cd3-6af4-5639-000000002100}
+ProcessId: 21360
+Image: C:\Windows\ImmersiveControlPanel\SystemSettings.exe
+FileVersion: 10.0.19041.7725 (WinBuild.160101.0800)
+Description: Settings
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: SystemSettings.exe
+CommandLine: ""C:\Windows\ImmersiveControlPanel\SystemSettings.exe"" -ServerName:microsoft.windows.immersivecontrolpanel
+CurrentDirectory: C:\Windows\ImmersiveControlPanel\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0344231829F0C7ECFC341DBC1EA8AF809C6E1D819E9663E80B5EF7DEFA08F3C3
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:29 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:29.366
+ProcessGuid: {5a81586e-2ccd-6af4-5539-000000002100}
+ProcessId: 13420
+Image: C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+FileVersion: 1.3.275.13
+Description: Microsoft Edge Update
+Product: Microsoft Edge Update
+Company: Microsoft Corporation
+OriginalFileName: MicrosoftEdgeUpdate.exe
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /ping PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48cmVxdWVzdCBwcm90b2NvbD0iMy4wIiB1cGRhdGVyPSJPbWFoYSIgdXBkYXRlcnZlcnNpb249IjEuMy4zMTUuMTciIHNoZWxsX3ZlcnNpb249IjEuMy4yNzUuMTMiIGlzbWFjaGluZT0iMSIgc2Vzc2lvbmlkPSJ7MDhENjE5NTAtQjQ2MS00NDY1LTlCOTItOUU3QkNEMzA1QTUxfSIgdXNlcmlkPSJ7RjE3MTE0M0ItMUEzNC00QUY5LTg0MzMtRDVBMUI3NjUyQzFBfSIgaW5zdGFsbHNvdXJjZT0iY29yZSIgcmVxdWVzdGlkPSJ7Mzg4RThGODItM0Q3My00REE0LUExMjgtRDVGMDI5NTQ1Q0Y4fSIgZGVkdXA9ImNyIiBkb21haW5qb2luZWQ9IjAiPjxodyBsb2dpY2FsX2NwdXM9IjQiIHBoeXNtZW1vcnk9IjgiIGRpc2tfdHlwZT0iMiIgc3NlPSIxIiBzc2UyPSIxIiBzc2UzPSIxIiBzc3NlMz0iMSIgc3NlNDE9IjEiIHNzZTQyPSIxIiBhdng9IjEiLz48b3MgcGxhdGZvcm09IndpbiIgdmVyc2lvbj0iMTAuMC4xOTA0NS43ODA3IiBzcD0iIiBhcmNoPSJ4NjQiIHByb2R1Y3RfdHlwZT0iNDgiIGlzX3dpcD0iMCIgaXNfaW5fbG9ja2Rvd25fbW9kZT0iMCIvPjxvZW0gcHJvZHVjdF9tYW51ZmFjdHVyZXI9IkxFTk9WTyIgcHJvZHVjdF9uYW1lPSIyMEo1UzBKTTAwIi8-PGV4cCBldGFnPSImcXVvdDtIaHZISVdwVU5aVE1uVjJWVDFsZTNmNVlKUTlPU29URDZNeEhEbEE4OVBnPSZxdW90OyIvPjxhcHAgYXBwaWQ9IntGM0M0RkUwMC1FRkQ1LTQwM0ItOTU2OS0zOThBMjBGMUJBNEF9IiB2ZXJzaW9uPSIxLjMuMzE1LjE3IiBuZXh0dmVyc2lvbj0iIiBsYW5nPSIiIGJyYW5kPSJJTkJYIiBjbGllbnQ9IiIgZXhwZXJpbWVudHM9IkNvcGlsb3RMaWZ0U2hpZnRCbG9jaz0lNUIlMjItZGlzYWJsZWQlMjIlNUQ7Q29waWxvdExpZnRTaGlmdEJsb2NrTTM2NVByZXNlbnQ9JTVCJTIyLWRpc2FibGVkJTIyJTVEO0NvcGlsb3RNYWlPbmx5UGluVHJpYWw9JTVCJTIyLWVuYWJsZWQlMjIlNUQ7Q29waWxvdFVuaWZ5PSU1QiUyMmZvcmNlJTIyJTVEO1Byb2R1Y3RzVG9SZWdpc3Rlcj0lNUIlMjIlN0JDNTA1NjVFOS1DQ0NGLTQ0QjQtQkExNS01QUM1QzY1NjkxOTclN0QlMjIlNUQiIGluc3RhbGxhZ2U9IjI3MiIgY29ob3J0PSJycmZAMC40NyI-PHVwZGF0ZWNoZWNrLz48cGluZyByPSIxIiByZD0iNzI1MyIgcGluZ19mcmVzaG5lc3M9Ins0ODBBNkMzMy0zQjE2LTQ5NTQtOUNERC02QjIzMTk5NTMxRTl9Ii8-PC9hcHA-PGFwcCBhcHBpZD0iezU2RUIxOEY4LUIwMDgtNENCRC1CNkQyLThDOTdGRTdFOTA2Mn0iIHZlcnNpb249IjE1Ny4wLjQzNDEuNDIiIG5leHR2ZXJzaW9uPSIxNTcuMC40MzQxLjQ2IiBsYW5nPSIiIGJyYW5kPSJJTkJYIiBjbGllbnQ9IiIgZXhwZXJpbWVudHM9ImNvbnNlbnQ9ZmFsc2UiIGluc3RhbGxhZ2U9IjI3MiIgY29ob3J0PSJycmZAMC4xNCIgb29iZV9pbnN0YWxsX3RpbWU9IjE4NDQ2NzQ0MDczNzA5NTUxNjA2IiB1cGRhdGVfY291bnQ9IjIzIiBpc19waW5uZWRfc3lzdGVtPSJ0cnVlIiBsYXN0X2xhdW5jaF9jb3VudD0iMSIgbGFzdF9sYXVuY2hfdGltZT0iMTM0Mzg4NjAxNDM0NjQzNDIwIj48dXBkYXRlY2hlY2svPjxldmVudCBldmVudHR5cGU9IjEyIiBldmVudHJlc3VsdD0iMSIgZXJyb3Jjb2RlPSIwIiBleHRyYWNvZGUxPSIwIiBzeXN0ZW1fdXB0aW1lX3RpY2tzPSI0NDU5NjQ5NzU3MDEiIGRvbmVfYmVmb3JlX29vYmVfY29tcGxldGU9IjAiLz48ZXZlbnQgZXZlbnR0eXBlPSIxMyIgZXZlbnRyZXN1bHQ9IjEiIGVycm9yY29kZT0iMCIgZXh0cmFjb2RlMT0iMCIgc3lzdGVtX3VwdGltZV90aWNrcz0iNDQ1OTY2OTYxNDY2IiBkb25lX2JlZm9yZV9vb2JlX2NvbXBsZXRlPSIwIi8-PGV2ZW50IGV2ZW50dHlwZT0iMTQiIGV2ZW50cmVzdWx0PSIxIiBlcnJvcmNvZGU9IjAiIGV4dHJhY29kZTE9IjAiIHN5c3RlbV91cHRpbWVfdGlja3M9IjQ0NjIzMjUzODQzNSIgc291cmNlX3VybF9pbmRleD0iMCIgZG9uZV9iZWZvcmVfb29iZV9jb21wbGV0ZT0iMCIgZG93bmxvYWRlcj0iZG8iIHVybD0iaHR0cDovL21zZWRnZS5iLnRsdS5kbC5kZWxpdmVyeS5tcC5taWNyb3NvZnQuY29tL2ZpbGVzdHJlYW1pbmdzZXJ2aWNlL2ZpbGVzL2E4NmUyMzRjLTUwYjMtNDlmMy1hMzg1LTdjYzU2YzI3ZjRlNj9QMT0xNzk0OTkxNDA2JmFtcDtQMj00MDQmYW1wO1AzPTImYW1wO1A0PWpGSE94MUhyY0JOdTRHMzN0aXJJRFglMmJKbWU3QWlkR2dITXZGY0VTVEJ2aFVhc0piOCUyZjBCbng0eGxIVGQlMmZ5TmxRYUNxTXNwVkNhRVZzdlY1RlZhTGdnJTNkJTNkIiBzZXJ2ZXJfaXBfaGludD0iIiBjZG5fY2lkPSItMSIgY2RuX2NjYz0iIiBjZG5fbXNlZGdlX3JlZj0iIiBjZG5fYXp1cmVfcmVmX29yaWdpbl9zaGllbGQ9IiIgY2RuX2NhY2hlPSIiIGNkbl9wM3A9IiIgZG93bmxvYWRlZD0iMTc3NTM5MzYiIHRvdGFsPSIxNzc1MzkzNiIgZG93bmxvYWRfdGltZV9tcz0iMjMyNzciLz48ZXZlbnQgZXZlbnR0eXBlPSIxNCIgZXZlbnRyZXN1bHQ9IjEiIGVycm9yY29kZT0iMCIgZXh0cmFjb2RlMT0iMCIgc3lzdGVtX3VwdGltZV90aWNrcz0iNDQ2MjM0MjY4NTUxIiBzb3VyY2VfdXJsX2luZGV4PSIwIiBkb25lX2JlZm9yZV9vb2JlX2NvbXBsZXRlPSIwIi8-PGV2ZW50IGV2ZW50dHlwZT0iMTUiIGV2ZW50cmVzdWx0PSIxIiBlcnJvcmNvZGU9IjAiIGV4dHJhY29kZTE9IjAiIHN5c3RlbV91cHRpbWVfdGlja3M9IjQ0NjI1MTIwOTQ4MyIgZG9uZV9iZWZvcmVfb29iZV9jb21wbGV0ZT0iMCIvPjxldmVudCBldmVudHR5cGU9IjMiIGV2ZW50cmVzdWx0PSIxIiBlcnJvcmNvZGU9IjAiIGV4dHJhY29kZTE9IjE5Njc1NyIgc3lzdGVtX3VwdGltZV90aWNrcz0iNDUwMTc4MTYxMzc4IiBzb3VyY2VfdXJsX2luZGV4PSIwIiBkb25lX2JlZm9yZV9vb2JlX2NvbXBsZXRlPSIwIiB1cGRhdGVfY2hlY2tfdGltZV9tcz0iNzc1MCIgZG93bmxvYWRfdGltZV9tcz0iMjYzODUiIGRvd25sb2FkZWQ9IjE3NzUzOTM2IiB0b3RhbD0iMTc3NTM5MzYiIHBhY2thZ2VfY2FjaGVfcmVzdWx0PSIwIiBpbnN0YWxsX3RpbWVfbXM9IjM5MjUzMSIvPjxwaW5nIGFjdGl2ZT0iMSIgYT0iMSIgcj0iMSIgYWQ9IjcyNTMiIHJkPSI3MjUzIiBwaW5nX2ZyZXNobmVzcz0ie0RCMjNGQUE2LUNGMEUtNEZDQi1BMzVELUQ1MDM0RUMxODI4Q30iLz48L2FwcD48YXBwIGFwcGlkPSJ7QzUwNTY1RTktQ0NDRi00NEI0LUJBMTUtNUFDNUM2NTY5MTk3fSIgdmVyc2lvbj0iMTU3LjAuNDM0MS40MiIgbmV4dHZlcnNpb249IjE1Ny4wLjQzNDEuNDYiIGxhbmc9IiIgYnJhbmQ9IkVVQ0IiIGNsaWVudD0iIiBleHBlcmltZW50cz0iY29uc2VudD1mYWxzZSIgaW5zdGFsbGFnZT0iMjA2IiBpbnN0YWxsZGF0ZT0iNzA0MiIgY29ob3J0PSJycmZAMC4xNCIgdXBkYXRlX2NvdW50PSIxNiIgbGFzdF9sYXVuY2hfY291bnQ9IjEiIGxhc3RfbGF1bmNoX3RpbWU9IjEzNDM4ODYwMTAxMTU5ODg1MCI-PHVwZGF0ZWNoZWNrLz48ZXZlbnQgZXZlbnR0eXBlPSIxMiIgZXZlbnRyZXN1bHQ9IjEiIGVycm9yY29kZT0iMCIgZXh0cmFjb2RlMT0iMCIgc3lzdGVtX3VwdGltZV90aWNrcz0iNDQ1OTY1MDkxNDg3IiBkb25lX2JlZm9yZV9vb2JlX2NvbXBsZXRlPSIwIi8-PGV2ZW50IGV2ZW50dHlwZT0iMTMiIGV2ZW50cmVzdWx0PSIxIiBlcnJvcmNvZGU9IjAiIGV4dHJhY29kZTE9IjAiIHN5c3RlbV91cHRpbWVfdGlja3M9IjQ1MDE3ODMyMDU3MSIgZG9uZV9iZWZvcmVfb29iZV9jb21wbGV0ZT0iMCIvPjxldmVudCBldmVudHR5cGU9IjE0IiBldmVudHJlc3VsdD0iMSIgZXJyb3Jjb2RlPSIwIiBleHRyYWNvZGUxPSIwIiBzeXN0ZW1fdXB0aW1lX3RpY2tzPSI0NTAyMTg4Mjk0NzQiIHNvdXJjZV91cmxfaW5kZXg9IjAiIGRvbmVfYmVmb3JlX29vYmVfY29tcGxldGU9IjAiIGRvd25sb2FkZXI9ImRvIiB1cmw9Imh0dHA6Ly9tc2VkZ2UuYi50bHUuZGwuZGVsaXZlcnkubXAubWljcm9zb2Z0LmNvbS9maWxlc3RyZWFtaW5nc2VydmljZS9maWxlcy9iN2Y2Mjc4NC01NDI4LTQwZmUtODk4MS00YWRkYTM5ZGI3NDk_UDE9MTc5NDk5MTQwNyZhbXA7UDI9NDA0JmFtcDtQMz0yJmFtcDtQND1Zb2txRTRBMXF1d1FHc3NOcHpVRExNaGlFMzV4bXpQd2JSUmolMmJ0MUQ2d0hEaDJUb3UySGxpUEVmVjFMZ1BCSjNQOEdhYWh4bWlBTUJwTFZqM2pZcDF3JTNkJTNkIiBzZXJ2ZXJfaXBfaGludD0iIiBjZG5fY2lkPSItMSIgY2RuX2NjYz0iIiBjZG5fbXNlZGdlX3JlZj0iIiBjZG5fYXp1cmVfcmVmX29yaWdpbl9zaGllbGQ9IiIgY2RuX2NhY2hlPSIiIGNkbl9wM3A9IiIgZG93bmxvYWRlZD0iMjk4OTM5MiIgdG90YWw9IjI5ODkzOTIiIGRvd25sb2FkX3RpbWVfbXM9IjI3MjciLz48ZXZlbnQgZXZlbnR0eXBlPSIxNCIgZXZlbnRyZXN1bHQ9IjEiIGVycm9yY29kZT0iMCIgZXh0cmFjb2RlMT0iMCIgc3lzdGVtX3VwdGltZV90aWNrcz0iNDUwMjE5MDU5NDMxIiBzb3VyY2VfdXJsX2luZGV4PSIwIiBkb25lX2JlZm9yZV9vb2JlX2NvbXBsZXRlPSIwIi8-PGV2ZW50IGV2ZW50dHlwZT0iMTUiIGV2ZW50cmVzdWx0PSIxIiBlcnJvcmNvZGU9IjAiIGV4dHJhY29kZTE9IjAiIHN5c3RlbV91cHRpbWVfdGlja3M9IjQ1MDIzMTQzNDI4MCIgZG9uZV9iZWZvcmVfb29iZV9jb21wbGV0ZT0iMCIvPjxldmVudCBldmVudHR5cGU9IjMiIGV2ZW50cmVzdWx0PSIxIiBlcnJvcmNvZGU9IjAiIGV4dHJhY29kZTE9IjE5Njc1NyIgc3lzdGVtX3VwdGltZV90aWNrcz0iNDUxMDUyMzE3NjQzIiBzb3VyY2VfdXJsX2luZGV4PSIwIiBkb25lX2JlZm9yZV9vb2JlX2NvbXBsZXRlPSIwIiB1cGRhdGVfY2hlY2tfdGltZV9tcz0iNzg3NCIgZG93bmxvYWRfdGltZV9tcz0iMjkzMSIgZG93bmxvYWRlZD0iMjA3NDMzMjgiIHRvdGFsPSIyMDc0MzMyOCIgcGFja2FnZV9jYWNoZV9yZXN1bHQ9IjAiIGluc3RhbGxfdGltZV9tcz0iMzk3NzYiLz48cGluZyBhY3RpdmU9IjEiIGE9IjExMCIgcj0iMSIgYWQ9IjcxNDQiIHJkPSI3MjUzIiBwaW5nX2ZyZXNobmVzcz0iezIxNTU1RjJFLUI2QTItNDNFNC1BMTY5LTlBQkRFQzNFRUFFRn0iLz48L2FwcD48YXBwIGFwcGlkPSJ7RjMwMTcyMjYtRkUyQS00Mjk1LThCREYtMDBDM0E5QTdFNEM1fSIgdmVyc2lvbj0iMTU3LjAuNDM0MS40MiIgbmV4dHZlcnNpb249IjE1Ny4wLjQzNDEuNDYiIGxhbmc9IiIgYnJhbmQ9IkVVV1YiIGNsaWVudD0iIiBleHBlcmltZW50cz0iY29uc2VudD1mYWxzZSIgaW5zdGFsbGFnZT0iMjY4IiBpbnN0YWxsZGF0ZT0iNjk3OSIgY29ob3J0PSJycmZAMC4xNCIgdXBkYXRlX2NvdW50PSIyMiIgbGFzdF9sYXVuY2hfY291bnQ9IjEiIGxhc3RfbGF1bmNoX3RpbWU9IjEzNDM4ODYwMDQwODIxMjUwMCI-PHVwZGF0ZWNoZWNrLz48ZXZlbnQgZXZlbnR0eXBlPSIxMiIgZXZlbnRyZXN1bHQ9IjEiIGVycm9yY29kZT0iMCIgZXh0cmFjb2RlMT0iMCIgc3lzdGVtX3VwdGltZV90aWNrcz0iNDQ1OTY1MjExNDU4IiBkb25lX2JlZm9yZV9vb2JlX2NvbXBsZXRlPSIwIi8-PGV2ZW50IGV2ZW50dHlwZT0iMTMiIGV2ZW50cmVzdWx0PSIxIiBlcnJvcmNvZGU9IjAiIGV4dHJhY29kZTE9IjAiIHN5c3RlbV91cHRpbWVfdGlja3M9IjQ1MTA1MjQ5NzU5MCIgZG9uZV9iZWZvcmVfb29iZV9jb21wbGV0ZT0iMCIvPjxldmVudCBldmVudHR5cGU9IjE0IiBldmVudHJlc3VsdD0iMSIgZXJyb3Jjb2RlPSIwIiBleHRyYWNvZGUxPSIwIiBzeXN0ZW1fdXB0aW1lX3RpY2tzPSI0NTEwNjg0NjYwNjgiIGRvbmVfYmVmb3JlX29vYmVfY29tcGxldGU9IjAiLz48ZXZlbnQgZXZlbnR0eXBlPSIxNSIgZXZlbnRyZXN1bHQ9IjEiIGVycm9yY29kZT0iMCIgZXh0cmFjb2RlMT0iMCIgc3lzdGVtX3VwdGltZV90aWNrcz0iNDUxMDgwMzE5OTIxIiBkb25lX2JlZm9yZV9vb2JlX2NvbXBsZXRlPSIwIi8-PGV2ZW50IGV2ZW50dHlwZT0iMyIgZXZlbnRyZXN1bHQ9IjEiIGVycm9yY29kZT0iMCIgZXh0cmFjb2RlMT0iMTk2NzU3IiBzeXN0ZW1fdXB0aW1lX3RpY2tzPSI0NTEzNzAxOTc3NjciIGRvbmVfYmVmb3JlX29vYmVfY29tcGxldGU9IjAiIHVwZGF0ZV9jaGVja190aW1lX21zPSI3ODc1IiBkb3dubG9hZGVkPSIxNzc1MzkzNiIgdG90YWw9IjE3NzUzOTM2IiBwYWNrYWdlX2NhY2hlX3Jlc3VsdD0iMiIgaW5zdGFsbF90aW1lX21zPSIyODk2OSIvPjxwaW5nIGFjdGl2ZT0iMSIgYT0iMSIgcj0iMSIgYWQ9IjcyNTMiIHJkPSI3MjUzIiBwaW5nX2ZyZXNobmVzcz0ie0JERDk1MDVBLUM2QzEtNDI1Qi04NDRFLUMzRTk3QzIwREE1OH0iLz48L2FwcD48L3JlcXVlc3Q-
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeUpdate\1.3.315.17\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=1D715E9790E43ACB426CC9A2779DEBB10003CF11740E014A8EDF47AFD46C420D
+ParentProcessGuid: {5a81586e-2aa2-6af4-8138-000000002100}
+ParentProcessId: 13140
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:26 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:26.532
+ProcessGuid: {5a81586e-2cca-6af4-5439-000000002100}
+ProcessId: 8836
+Image: C:\Windows\System32\backgroundTaskHost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: Background Task Host
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: backgroundTaskHost.exe
+CommandLine: ""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca
+CurrentDirectory: C:\WINDOWS\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: AppContainer
+Hashes: SHA256=7077CBF56490C86FC74C0CC6C0379AB679F06A066E71906AD23458F664836449
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:26 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:26.476
+ProcessGuid: {5a81586e-2cca-6af4-5339-000000002100}
+ProcessId: 19844
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-2170-660700000000}
+LogonId: 0x7667021
+TerminalSessionId: 10
+IntegrityLevel: High
+Hashes: SHA256=4D84D1DB6C572DA841307B814CCF26478429D3A29F304755CE1BAF110E639F64
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:17 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:17.242
+ProcessGuid: {5a81586e-2cc1-6af4-5239-000000002100}
+ProcessId: 17232
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe
+FileVersion: 10.2.3
+Description: Registry monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-regmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-regmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=4EC928823D0653E6BB3259E041B889DF6945BBFB2B77FC9EB473838FB88B3E35
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:22:16 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:16.463
+ProcessGuid: {5a81586e-2cc0-6af4-5139-000000002100}
+ProcessId: 20440
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe
+FileVersion: 10.2.3
+Description: Monitor windows event logs
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-winevtlog.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=B5DB9D8165D30FAD147D798236D66D2D7C2BC9E7C77530FFB66ED988254470FF
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:22:15 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:15.585
+ProcessGuid: {5a81586e-2cbf-6af4-5039-000000002100}
+ProcessId: 17012
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\157.0.4341.42\msedgewebview2.exe
+FileVersion: 157.0.4341.42
+Description: Microsoft Edge WebView2
+Product: Microsoft Edge WebView2
+Company: Microsoft Corporation
+OriginalFileName: msedgewebview2.exe
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\157.0.4341.42\msedgewebview2.exe"" --type=renderer --noerrdialogs --user-data-dir=""C:\Users\Admin\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView"" --webview-exe-name=WhatsApp.Root.exe --webview-exe-version=1.0.0 --embedded-browser-webview=1 --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=25 --ssd-no-pressure-read-main-dll --launch-time-ticks=496823176282 --metrics-shmem-handle=6492,i,11889603029731059114,11196184477677029863,1048576 --field-trial-handle=2328,i,12117372466648686077,2991233844317996106,262144 --variations-seed-version --pseudonymization-salt-handle=2332,i,2603155264442222704,5269137150648250566,4 --trace-process-track-uuid=3190709009737917719 --mojo-platform-channel-handle=6452 /prefetch:1
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\157.0.4341.42\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Low
+Hashes: SHA256=51B4CD503D669D8F7F6FF6E9E22EFFEEBD28CCE11262DDEC815972A424474533
+ParentProcessGuid: {5a81586e-2a07-6af4-9f37-000000002100}
+ParentProcessId: 12548
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\157.0.4341.42\msedgewebview2.exe
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\157.0.4341.42\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=WhatsApp.Root.exe --webview-exe-version=1.0.0 --user-data-dir=""C:\Users\Admin\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalCache\EBWebView"" --noerrdialogs --edge-webview-disable-crash-reporting=1 --embedded-browser-webview-enable-extension --edge-webview-is-background --mojo-named-platform-channel-pipe=7452.2716.15162773461668431706
+ParentUser: PRIYAPC\Admin"
+"11/11/2026 2:22:14 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:14.507
+ProcessGuid: {5a81586e-2cbe-6af4-4f39-000000002100}
+ProcessId: 12592
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe"" --ps2
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:22:13 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:13.752
+ProcessGuid: {5a81586e-2cbd-6af4-4e39-000000002100}
+ProcessId: 19452
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=BAC42959A130084AFD25DEF2520AA63E58F466C472484A0FB011E51B1838D203
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:22:12 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:12.862
+ProcessGuid: {5a81586e-2cbc-6af4-4d39-000000002100}
+ProcessId: 11640
+Image: C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.29.380.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.29.380.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe"" -Embedding
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=FD2F533A9F40BFE4F7FD59D15C7B5734C76746BBE6DCEDAA878C441BA544E0B5
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:12 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:12.177
+ProcessGuid: {5a81586e-2cbc-6af4-4c39-000000002100}
+ProcessId: 21500
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\157.0.4341.46\Installer\setup.exe
+FileVersion: 157.0.4341.46
+Description: Microsoft Edge Installer
+Product: Microsoft Edge Installer
+Company: Microsoft Corporation
+OriginalFileName: setup.exe
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\157.0.4341.46\Installer\setup.exe"" --msedgewebview --delete-old-versions --system-level --verbose-logging
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\157.0.4341.46\Installer\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=6FE92B5CA87CDFC4D23069552B5BE6ADC23EF7F2C3A710D1957F550F143BB159
+ParentProcessGuid: {5a81586e-2cb1-6af4-4739-000000002100}
+ParentProcessId: 10392
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\EDGEMITMP_B6358.tmp\setup.exe
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\EDGEMITMP_B6358.tmp\setup.exe"" --install-archive=""C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\MicrosoftEdge_X64_157.0.4341.46_157.0.4341.42.exe"" --previous-version=""157.0.4341.42"" --msedgewebview --verbose-logging --do-not-launch-msedge --system-level
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:10 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:10.493
+ProcessGuid: {5a81586e-2cba-6af4-4b39-000000002100}
+ProcessId: 3316
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+FileVersion: 10.0.10011.16384
+Description: SplunkMonNoHandle Control Program
+Product: Windows (R) Win 7 DDK driver
+Company: Windows (R) Win 7 DDK provider
+OriginalFileName: SplunkMonNoHandle.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=86697DB5B59F9E9E5B45141B11384A97C3703B239FA2C3F4E676C6ED04E7C2BE
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:22:09 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:09.733
+ProcessGuid: {5a81586e-2cb9-6af4-4a39-000000002100}
+ProcessId: 3748
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+FileVersion: 10.2.3
+Description: Active Directory monitor
+Product: splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-admon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=923EB76A17FB5B746DB6B729B1852F1A50D25EF4D2C5576B6AEED0548D11D827
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:22:08 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:08.960
+ProcessGuid: {5a81586e-2cb8-6af4-4939-000000002100}
+ProcessId: 19292
+Image: C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe
+FileVersion: 10.2.3
+Description: Network monitor
+Product: Splunk Application
+Company: Splunk Inc.
+OriginalFileName: splunk-netmon.exe
+CommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe""
+CurrentDirectory: C:\WINDOWS\system32\
+User: NT SERVICE\SplunkForwarder
+LogonGuid: {5a81586e-9854-6aec-0b8e-030000000000}
+LogonId: 0x38E0B
+TerminalSessionId: 0
+IntegrityLevel: High
+Hashes: SHA256=CFFA761D483A9ED5970D020FAEE647602FC2D1BEE0917C515FA7A27865C84F96
+ParentProcessGuid: {5a81586e-9854-6aec-7700-000000002100}
+ParentProcessId: 4708
+ParentImage: C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+ParentCommandLine: ""C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe"" service
+ParentUser: NT SERVICE\SplunkForwarder"
+"11/11/2026 2:22:04 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:04.188
+ProcessGuid: {5a81586e-2cb4-6af4-4839-000000002100}
+ProcessId: 20292
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:01 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:01.383
+ProcessGuid: {5a81586e-2cb1-6af4-4739-000000002100}
+ProcessId: 10392
+Image: C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\EDGEMITMP_B6358.tmp\setup.exe
+FileVersion: 157.0.4341.46
+Description: Microsoft Edge Installer
+Product: Microsoft Edge Installer
+Company: Microsoft Corporation
+OriginalFileName: setup.exe
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\EDGEMITMP_B6358.tmp\setup.exe"" --install-archive=""C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\MicrosoftEdge_X64_157.0.4341.46_157.0.4341.42.exe"" --previous-version=""157.0.4341.42"" --msedgewebview --verbose-logging --do-not-launch-msedge --system-level
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeUpdate\1.3.315.17\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=6FE92B5CA87CDFC4D23069552B5BE6ADC23EF7F2C3A710D1957F550F143BB159
+ParentProcessGuid: {5a81586e-2cb0-6af4-4539-000000002100}
+ParentProcessId: 8736
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\MicrosoftEdge_X64_157.0.4341.46_157.0.4341.42.exe
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\MicrosoftEdge_X64_157.0.4341.46_157.0.4341.42.exe"" --msedgewebview --verbose-logging --do-not-launch-msedge --system-level
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:01 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:01.184
+ProcessGuid: {5a81586e-2cb1-6af4-4639-000000002100}
+ProcessId: 9684
+Image: C:\Windows\System32\backgroundTaskHost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: Background Task Host
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: backgroundTaskHost.exe
+CommandLine: ""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca
+CurrentDirectory: C:\WINDOWS\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: AppContainer
+Hashes: SHA256=7077CBF56490C86FC74C0CC6C0379AB679F06A066E71906AD23458F664836449
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:22:00 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:52:00.549
+ProcessGuid: {5a81586e-2cb0-6af4-4539-000000002100}
+ProcessId: 8736
+Image: C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\MicrosoftEdge_X64_157.0.4341.46_157.0.4341.42.exe
+FileVersion: 157.0.4341.46
+Description: Microsoft Edge Installer
+Product: Microsoft Edge Installer
+Company: Microsoft Corporation
+OriginalFileName: mini_installer.exe
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{7AC0B509-3608-4D2C-9FA2-8772DCE6FBFA}\MicrosoftEdge_X64_157.0.4341.46_157.0.4341.42.exe"" --msedgewebview --verbose-logging --do-not-launch-msedge --system-level
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeUpdate\1.3.315.17\
+User: NT AUTHORITY\SYSTEM
+LogonGuid: {5a81586e-984f-6aec-e703-000000000000}
+LogonId: 0x3E7
+TerminalSessionId: 0
+IntegrityLevel: System
+Hashes: SHA256=2690879D17829BC2A8C40060F0C7B19532E489D3E9FEB99F5C2B9B46E0B092AD
+ParentProcessGuid: {5a81586e-2aa2-6af4-8138-000000002100}
+ParentProcessId: 13140
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:21:53 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:51:53.155
+ProcessGuid: {5a81586e-2ca9-6af4-4439-000000002100}
+ProcessId: 2612
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-2170-660700000000}
+LogonId: 0x7667021
+TerminalSessionId: 10
+IntegrityLevel: High
+Hashes: SHA256=4D84D1DB6C572DA841307B814CCF26478429D3A29F304755CE1BAF110E639F64
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:21:51 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:51:51.190
+ProcessGuid: {5a81586e-2ca7-6af4-4339-000000002100}
+ProcessId: 13732
+Image: C:\Windows\System32\backgroundTaskHost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: Background Task Host
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: backgroundTaskHost.exe
+CommandLine: ""C:\WINDOWS\system32\backgroundTaskHost.exe"" -ServerName:App.AppXmtcan0h2tfbfy7k9kn8hbxb6dmzz1zh0.mca
+CurrentDirectory: C:\WINDOWS\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: AppContainer
+Hashes: SHA256=7077CBF56490C86FC74C0CC6C0379AB679F06A066E71906AD23458F664836449
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:21:51 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:51:51.127
+ProcessGuid: {5a81586e-2ca7-6af4-4239-000000002100}
+ProcessId: 3448
+Image: C:\Windows\System32\taskhostw.exe
+FileVersion: 10.0.19041.5794 (WinBuild.160101.0800)
+Description: Host Process for Windows Tasks
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: taskhostw.exe
+CommandLine: taskhostw.exe
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-2170-660700000000}
+LogonId: 0x7667021
+TerminalSessionId: 10
+IntegrityLevel: High
+Hashes: SHA256=4D84D1DB6C572DA841307B814CCF26478429D3A29F304755CE1BAF110E639F64
+ParentProcessGuid: {5a81586e-9850-6aec-3200-000000002100}
+ParentProcessId: 2388
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k netsvcs -p -s Schedule
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:21:42 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:51:42.212
+ProcessGuid: {5a81586e-2c9e-6af4-4139-000000002100}
+ProcessId: 21592
+Image: C:\Windows\System32\dllhost.exe
+FileVersion: 10.0.19041.3636 (WinBuild.160101.0800)
+Description: COM Surrogate
+Product: Microsoft? Windows? Operating System
+Company: Microsoft Corporation
+OriginalFileName: dllhost.exe
+CommandLine: C:\WINDOWS\system32\DllHost.exe /Processid:{AB8902B4-09CA-4BB6-B78D-A8F59079A8D5}
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=0309834D40475CCD5A88C48F7FF5EC62E5C6798900357DD83665C3D0345124E0
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"
+"11/11/2026 2:21:40 PM","1","Microsoft-Windows-Sysmon","Process Create:
+RuleName: -
+UtcTime: 2026-11-11 08:51:40.694
+ProcessGuid: {5a81586e-2c9c-6af4-4039-000000002100}
+ProcessId: 9020
+Image: C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.29.380.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe
+FileVersion: -
+Description: -
+Product: -
+Company: -
+OriginalFileName: -
+CommandLine: ""C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.29.380.0_x64__8wekyb3d8bbwe\WindowsPackageManagerServer.exe"" -Embedding
+CurrentDirectory: C:\WINDOWS\system32\
+User: PRIYAPC\Admin
+LogonGuid: {5a81586e-29d3-6af4-f170-660700000000}
+LogonId: 0x76670F1
+TerminalSessionId: 10
+IntegrityLevel: Medium
+Hashes: SHA256=FD2F533A9F40BFE4F7FD59D15C7B5734C76746BBE6DCEDAA878C441BA544E0B5
+ParentProcessGuid: {5a81586e-984f-6aec-0f00-000000002100}
+ParentProcessId: 1020
+ParentImage: C:\Windows\System32\svchost.exe
+ParentCommandLine: C:\WINDOWS\system32\svchost.exe -k DcomLaunch -p
+ParentUser: NT AUTHORITY\SYSTEM"

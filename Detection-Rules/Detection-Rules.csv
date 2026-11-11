@@ -1,0 +1,5 @@
+RuleID,RuleName,EventID,DetectionCondition,Severity
+RULE001,Repeated Failed Logins,4625,5 or more failures from same source IP,High
+RULE002,Suspicious Process Execution,1,Encoded commands or suspicious PowerShell arguments,High
+RULE003,PowerShell Script Monitoring,4104,Potentially suspicious script-block commands,Medium
+RULE004,Successful Login Monitoring,4624,Monitor successful account logons,Low

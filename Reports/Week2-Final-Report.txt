@@ -1,0 +1,50 @@
+PROJECT TITLE: Windows Attack Detection and Detection Engineering
+
+PROJECT OVERVIEW
+
+This project focuses on monitoring Windows endpoint activities and detecting potentially suspicious behaviour using Windows Security Event Logs, Sysmon and PowerShell.
+
+TOOLS USED
+
+1. Windows 10
+2. Windows PowerShell
+3. Windows Event Viewer
+4. Sysmon
+5. CSV reports
+
+IMPLEMENTATION
+
+Day 1 – Windows Security Log Analysis
+Collected and analysed Windows Security events, including successful and failed login events.
+
+Day 2 – Failed Login Detection
+Developed a PowerShell script to identify repeated failed login attempts using Event ID 4625.
+
+Day 3 – Suspicious Process Detection
+Used Sysmon Event ID 1 to monitor process creation and identify potentially suspicious command-line activity.
+
+Day 4 – PowerShell Attack Detection
+Enabled PowerShell Script Block Logging and investigated Event ID 4104.
+
+Day 5 – Detection Engineering
+Created detection rules for failed logins, suspicious process execution and PowerShell activity.
+
+Day 6 – Automated SOC Investigation
+Developed a combined PowerShell script to collect events, apply detection conditions and generate consolidated CSV reports.
+
+Day 7 – Final Investigation
+Verified the generated evidence, reviewed detection results and prepared project documentation.
+
+PROJECT OUTPUTS
+
+- Security event reports
+- Failed login reports
+- Process activity reports
+- PowerShell activity reports
+- Detection rules
+- Consolidated SOC alerts
+- Investigation summary
+
+CONCLUSION
+
+This project provided practical experience in Windows endpoint monitoring, security event analysis, detection engineering and automated security investigation. It demonstrates how PowerShell and Sysmon can support basic SOC monitoring without requiring a heavy SIEM installation.
